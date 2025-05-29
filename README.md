@@ -17,6 +17,9 @@ The script produces:
 2.  Individual sensor definition files for each inverter (e.g., `chisage/chisage_1_sensors.yaml`), which are included by `modbus_devices.yaml`.
 3.  Optional Lovelace UI card definition files for each inverter (e.g., `chisage/chisage_1_card.yaml`).
 
+## Targets
+*   Chisage Mars-5-14G2-LE with current firmware
+
 ## Features
 
 *   Generates Home Assistant Modbus TCP hub configurations.
