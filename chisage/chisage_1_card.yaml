@@ -1,0 +1,103 @@
+type: entities
+title: Chisage 1
+entities:
+- entity: sensor.chisage_1_inverter_voltage_a
+  name: Inverter Voltage A
+- entity: sensor.chisage_1_inverter_voltage_b
+  name: Inverter Voltage B
+- entity: sensor.chisage_1_inverter_voltage_c
+  name: Inverter Voltage C
+- entity: sensor.chisage_1_inverter_current_a
+  name: Inverter Current A
+- entity: sensor.chisage_1_inverter_current_b
+  name: Inverter Current B
+- entity: sensor.chisage_1_inverter_current_c
+  name: Inverter Current C
+- entity: sensor.chisage_1_grid_voltage_a
+  name: Grid Voltage A
+- entity: sensor.chisage_1_grid_voltage_b
+  name: Grid Voltage B
+- entity: sensor.chisage_1_grid_voltage_c
+  name: Grid Voltage C
+- entity: sensor.chisage_1_grid_current_a
+  name: Grid Current A
+- entity: sensor.chisage_1_grid_current_b
+  name: Grid Current B
+- entity: sensor.chisage_1_grid_current_c
+  name: Grid Current C
+- entity: sensor.chisage_1_load_voltage_a
+  name: Load Voltage A
+- entity: sensor.chisage_1_load_voltage_b
+  name: Load Voltage B
+- entity: sensor.chisage_1_load_voltage_c
+  name: Load Voltage C
+- entity: sensor.chisage_1_load_current_a
+  name: Load Current A
+- entity: sensor.chisage_1_load_current_b
+  name: Load Current B
+- entity: sensor.chisage_1_load_current_c
+  name: Load Current C
+- entity: sensor.chisage_1_diesel_generator_voltage_a
+  name: Diesel Generator Voltage A
+- entity: sensor.chisage_1_diesel_generator_voltage_b
+  name: Diesel Generator Voltage B
+- entity: sensor.chisage_1_diesel_generator_voltage_c
+  name: Diesel Generator Voltage C
+- entity: sensor.chisage_1_diesel_generator_current_a
+  name: Diesel Generator Current A
+- entity: sensor.chisage_1_diesel_generator_current_b
+  name: Diesel Generator Current B
+- entity: sensor.chisage_1_diesel_generator_current_c
+  name: Diesel Generator Current C
+- entity: sensor.chisage_1_inverter_positive_bus_voltage
+  name: Inverter Positive Bus Voltage
+- entity: sensor.chisage_1_negative_bus_voltage
+  name: Negative Bus Voltage
+- entity: sensor.chisage_1_inverter_frequency
+  name: Inverter Frequency
+- entity: sensor.chisage_1_grid_frequency
+  name: Grid Frequency
+- entity: sensor.chisage_1_diesel_generator_output_frequency
+  name: Diesel Generator Output Frequency
+- entity: sensor.chisage_1_maximum_temperature
+  name: Maximum Temperature
+- entity: sensor.chisage_1_inverter_working_stage
+  name: Inverter Working Stage
+- entity: sensor.chisage_1_external_ct_power_a
+  name: External CT Power A
+- entity: sensor.chisage_1_external_ct_power_b
+  name: External CT Power B
+- entity: sensor.chisage_1_external_ct_power_c
+  name: External CT Power C
+- entity: sensor.chisage_1_external_ct_current_a
+  name: External CT Current A
+- entity: sensor.chisage_1_external_ct_current_b
+  name: External CT Current B
+- entity: sensor.chisage_1_battery_voltage
+  name: Battery Voltage
+- entity: sensor.chisage_1_battery_current
+  name: Battery Current
+- entity: sensor.chisage_1_photovoltaic_1_voltage
+  name: Photovoltaic 1 Voltage
+- entity: sensor.chisage_1_photovoltaic_1_current
+  name: Photovoltaic 1 Current
+- entity: sensor.chisage_1_photovoltaic_2_voltage
+  name: Photovoltaic 2 Voltage
+- entity: sensor.chisage_1_photovoltaic_2_current
+  name: Photovoltaic 2 Current
+- entity: sensor.chisage_1_dc_bus_voltage
+  name: DC Bus Voltage
+- entity: sensor.chisage_1_dc_positive_bus_voltage
+  name: DC Positive Bus Voltage
+- entity: sensor.chisage_1_buck_voltage
+  name: Buck Voltage
+- entity: sensor.chisage_1_buck_current
+  name: Buck Current
+- entity: sensor.chisage_1_battery_power
+  name: Battery Power
+- entity: sensor.chisage_1_photovoltaic_1_power
+  name: Photovoltaic 1 Power
+- entity: sensor.chisage_1_photovoltaic_2_power
+  name: Photovoltaic 2 Power
+- entity: sensor.chisage_1_battery_soc
+  name: Battery SOC

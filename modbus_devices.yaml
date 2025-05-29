@@ -1,0 +1,15 @@
+- name: Chisage 3
+  type: tcp
+  host: 192.168.178.209
+  port: 5003
+  sensors: !include chisage/chisage_3_sensors.yaml
+- name: Chisage 1
+  type: tcp
+  host: 192.168.178.209
+  port: 5001
+  sensors: !include chisage/chisage_1_sensors.yaml
+- name: Chisage 2
+  type: tcp
+  host: 192.168.178.209
+  port: 5002
+  sensors: !include chisage/chisage_2_sensors.yaml

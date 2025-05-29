@@ -1,0 +1,356 @@
+- name: Chisage 1 Inverter Voltage A
+  slave: 1
+  address: 26
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Inverter Voltage B
+  slave: 1
+  address: 27
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Inverter Voltage C
+  slave: 1
+  address: 28
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Inverter Current A
+  slave: 1
+  address: 29
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Inverter Current B
+  slave: 1
+  address: 30
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Inverter Current C
+  slave: 1
+  address: 31
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Grid Voltage A
+  slave: 1
+  address: 32
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Grid Voltage B
+  slave: 1
+  address: 33
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Grid Voltage C
+  slave: 1
+  address: 34
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Grid Current A
+  slave: 1
+  address: 35
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Grid Current B
+  slave: 1
+  address: 36
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Grid Current C
+  slave: 1
+  address: 37
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Load Voltage A
+  slave: 1
+  address: 38
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Load Voltage B
+  slave: 1
+  address: 39
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Load Voltage C
+  slave: 1
+  address: 40
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Load Current A
+  slave: 1
+  address: 41
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Load Current B
+  slave: 1
+  address: 42
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Load Current C
+  slave: 1
+  address: 43
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Diesel Generator Voltage A
+  slave: 1
+  address: 44
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Diesel Generator Voltage B
+  slave: 1
+  address: 45
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Diesel Generator Voltage C
+  slave: 1
+  address: 46
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Diesel Generator Current A
+  slave: 1
+  address: 47
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Diesel Generator Current B
+  slave: 1
+  address: 48
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Diesel Generator Current C
+  slave: 1
+  address: 49
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Inverter Positive Bus Voltage
+  slave: 1
+  address: 50
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Negative Bus Voltage
+  slave: 1
+  address: 51
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Inverter Frequency
+  slave: 1
+  address: 52
+  data_type: int16
+  scale: 0.01
+  unit_of_measurement: Hz
+  scan_interval: 20
+- name: Chisage 1 Grid Frequency
+  slave: 1
+  address: 53
+  data_type: int16
+  scale: 0.01
+  unit_of_measurement: Hz
+  scan_interval: 20
+- name: Chisage 1 Diesel Generator Output Frequency
+  slave: 1
+  address: 54
+  data_type: int16
+  scale: 0.01
+  unit_of_measurement: Hz
+  scan_interval: 20
+- name: Chisage 1 Maximum Temperature
+  slave: 1
+  address: 56
+  data_type: uint16
+  scale: 0.1
+  unit_of_measurement: "\xB0C"
+  scan_interval: 20
+- name: Chisage 1 Inverter Working Stage
+  slave: 1
+  address: 57
+  data_type: uint16
+  unit_of_measurement: ''
+  scan_interval: 20
+- name: Chisage 1 External CT Power A
+  slave: 1
+  address: 58
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: W
+  scan_interval: 20
+  state_class: measurement
+- name: Chisage 1 External CT Power B
+  slave: 1
+  address: 59
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: W
+  scan_interval: 20
+  state_class: measurement
+- name: Chisage 1 External CT Power C
+  slave: 1
+  address: 60
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: W
+  scan_interval: 20
+  state_class: measurement
+- name: Chisage 1 External CT Current A
+  slave: 1
+  address: 61
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 External CT Current B
+  slave: 1
+  address: 62
+  data_type: uint16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Battery Voltage
+  slave: 1
+  address: 2026
+  data_type: int16
+  scale: 0.01
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Battery Current
+  slave: 1
+  address: 2027
+  data_type: int16
+  scale: 0.1
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Photovoltaic 1 Voltage
+  slave: 1
+  address: 2028
+  data_type: int16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Photovoltaic 1 Current
+  slave: 1
+  address: 2029
+  data_type: int16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Photovoltaic 2 Voltage
+  slave: 1
+  address: 2030
+  data_type: int16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Photovoltaic 2 Current
+  slave: 1
+  address: 2031
+  data_type: int16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 DC Bus Voltage
+  slave: 1
+  address: 2032
+  data_type: int16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 DC Positive Bus Voltage
+  slave: 1
+  address: 2033
+  data_type: int16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Buck Voltage
+  slave: 1
+  address: 2034
+  data_type: int16
+  scale: 0.1
+  unit_of_measurement: V
+  scan_interval: 20
+- name: Chisage 1 Buck Current
+  slave: 1
+  address: 2035
+  data_type: int16
+  scale: 0.01
+  unit_of_measurement: A
+  scan_interval: 20
+- name: Chisage 1 Battery Power
+  slave: 1
+  address: 2036
+  data_type: int16
+  scale: 1.0
+  unit_of_measurement: W
+  scan_interval: 20
+  state_class: measurement
+- name: Chisage 1 Photovoltaic 1 Power
+  slave: 1
+  address: 2037
+  data_type: int16
+  scale: 1.0
+  unit_of_measurement: W
+  scan_interval: 20
+  state_class: measurement
+- name: Chisage 1 Photovoltaic 2 Power
+  slave: 1
+  address: 2038
+  data_type: int16
+  scale: 1.0
+  unit_of_measurement: W
+  scan_interval: 20
+  state_class: measurement
+- name: Chisage 1 Battery SOC
+  slave: 1
+  address: 2039
+  data_type: uint16
+  scale: 1.0
+  unit_of_measurement: '%'
+  scan_interval: 20
+  state_class: measurement
